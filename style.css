@@ -1,0 +1,174 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    height: 768px;
+    background: url(img/header__bg.jpg)no-repeat center /cover;
+}
+
+.container_nav {
+    padding-top: 46px;
+}
+
+.container_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_nav ul li {
+    padding: 0 35px;
+}
+
+.container_nav ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container_header {
+    height: 420px;
+}
+
+.header_text {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header_text h1 {
+    font-family: 'pass-through';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container_opit {
+    padding: 44px 0 70px;
+    max-width: 1067px;
+    width: 100%;
+}
+
+.container_opit h2 {
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container_opit h2:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 2px;
+    background: linear-gradient(to left, transparent, #00C2DD, transparent);
+    margin-bottom: 50px;
+}
+
+.container_opit h2:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 2px;
+    background: linear-gradient(to left, transparent, #00C2DD, transparent);
+    margin-top: 50px;
+}
+
+.uslugi {
+    padding-bottom: 50px;
+}
+
+.kartochki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_uslugi h3 {
+    font-family: 'pass-through';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.karta {
+    position: relative;
+    margin-bottom: 50px;
+    max-width: 359px;
+    width: 100%;
+}
+
+.karta img {
+    width: 100%;
+}
+
+.knopka {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+    outline: none;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background 0.8s;
+}
+
+.karta .knopka:hover {
+    background: rgba(0, 195, 221, 0.205);
+    border-radius: 35px;
+}
+
+.uslugi:after {
+    content: url(img/liner.png);
+    display: block;
+    position: absolute;
+    right: 0;
+}
